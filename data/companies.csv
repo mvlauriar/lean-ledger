@@ -1,53 +1,53 @@
-status,name,url,team_size,revenue,revenue_annualized_usd,revenue_per_employee,funding_raised,bootstrapped_or_vc,category,source_url,as_of_date,confidence,notes
-active,Cal AI,https://www.calai.app,15,$24M ARR,24000000,1600000,,,Consumer health app,https://tinyteams.xyz/,,self-reported,"Re-check 2026-10-21: earlier 2-person/$21M claim (Indie Hackers) could not be re-verified; using tinyteams.xyz listing of 15 people / $24M ARR, undated"
-active,Rosebud AI Journal,https://www.rosebud.app,5,$1M ARR,1000000,200000,,,Consumer wellness,https://montethakkar.com/resume.pdf,2025,self-reported,Source is a founder resume
-active,SeoBot,https://seobotai.com,1,$1M ARR,1000000,1000000,,,Marketing / SEO agent,https://www.vccafe.com/nano-unicorns-in-the-making/,2025,self-reported,tinyteams.xyz lists 2 people / $1.2M ARR
-graduated,Base44,https://base44.com,1,$3.5M ARR,3500000,3500000,,bootstrapped,AI app builder,https://wearefounders.uk/from-solo-builder-to-80m-exit-the-base44-story,2025-06-18,self-reported,Matches source. Acquired by Wix (~$80M) Jun 2025; tinyteams.xyz lists $2M ARR
-active,Swan AI,https://www.swan.ai,3,$1M ARR,1000000,333333,,,Sales / GTM agents,https://ryan-estes.beehiiv.com/p/6m-in-9-months-1m-in-8-weeks-and-why-billionaires-want-to-live-forever,2025,self-reported,
-active,Arcads,https://www.arcads.ai,4,$5M ARR,5000000,1250000,,,AI video ads,https://tinyteams.xyz/,,self-reported,"Re-check 2026-10-21: replaced secondary Medium claim (5 people/$10M) with tinyteams.xyz listing (4 people/$5M), undated; a Mar 2026 Substack says ~10 people"
-active,Magic Patterns,https://www.magicpatterns.com,2,$1M ARR,1000000,500000,,vc,AI UI design,https://rosetta.to/u/ycrootaccess,2025,self-reported,YC company
-graduated,Magnific,https://magnific.ai,2,$6M ARR,6000000,3000000,,bootstrapped,AI image upscaling,https://chalsarboleya.substack.com/p/europes-ai-champions-and-the-gtm,pre-2025,self-reported,Source (Mar 2026): $6M ARR with 2 people before Freepik acquisition; now ~$30M ARR inside Freepik. tinyteams.xyz says $10M
-active,Polsia,https://polsia.com,1,$1M ARR (reported within 30 days),1000000,1000000,,,AI agents for businesses,https://contextstudios.ai/blog/polsia-how-a-solo-founder-hit-1m-arr-in-30-days-with-ai-agents,2026,self-reported,
-active,Maggi AI,,1,$1M ARR,1000000,1000000,,bootstrapped,AI assistant,https://kblip.com/news/solo-founder-builds-maggi-ai-to-1m-arr-in-12-months-without-5qJxBRl,2026,self-reported,Reported as built without VC
-active,Gauge,,5,$2M ARR,2000000,400000,,,AI search visibility,https://insights.tryspecter.com/specter-monitor-241,2026,estimate,Secondary newsletter
-active,Loman,https://loman.ai,2,$1.5M ARR,1500000,750000,,,AI phone agent (restaurants),https://select.keenable.ai/r/lean-ai-products-at-1m-arr-2025-sep-2026/WwKmTVPhPPZWlOclJqrBSg,2025-08,estimate,Keenable row had incomplete source
-active,CHAI,https://www.chai-research.com,12,$30M+ ARR,30000000,2500000,,,Consumer social AI,https://aijourn.com/chai-reaches-over-30m-in-arr-with-only-12-employees/,2025-03-28,self-reported,PR Newswire release; matches
-graduated,Lovable,https://lovable.dev,18,$30M ARR,30000000,1666667,,vc,AI app builder,https://www.growthunhinged.com/p/lovable-growth-story,2025-04-02,self-reported,Team grew to 45 by Jul 2025; now well above 20
-active,Recall.ai,https://www.recall.ai,19,$10M+ ARR,10000000,526316,,vc,Meeting bot API,https://www.heysam.ai/blog/one-table-companies,2025-01,estimate,Third-party blog
-active,RB2B,https://www.rb2b.com,7,$4M (first 9 months),4000000,571429,,bootstrapped,B2B visitor identification,https://www.heysam.ai/blog/one-table-companies,2024,self-reported,
-active,Floqer,https://www.floqer.com,9,Seven-figure ARR,,,$2M pre-seed (Sep 2025),vc,Sales data / AI agents,https://thelogic.co/news/analysis/ai-startups-millions-tiny-teams/,2026-08,self-reported,Exact ARR not disclosed
-active,Hivelighter,,9,,,,,,AI,https://thelogic.co/news/analysis/ai-startups-millions-tiny-teams/,2026-08,self-reported,"Targeting $13M ARR by 2028 (goal, not revenue)"
-graduated,bolt.new,https://bolt.new,15,$40M ARR,40000000,2666667,,vc,AI app builder,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-graduated,Midjourney,https://www.midjourney.com,10,$200M ARR,200000000,20000000,,bootstrapped,AI image generation,https://tinyteams.xyz/,,estimate,historical snapshot on tinyteams.xyz; milestone date not stated; team now far larger
-graduated,Cursor (Anysphere),https://cursor.com,20,$200M ARR,200000000,10000000,,vc,AI coding,https://tinyteams.xyz/,,estimate,historical snapshot on tinyteams.xyz; milestone date not stated; team now far larger
-active,Twofold,https://www.trytwofold.com,3,$5M ARR,5000000,1666667,,,AI medical scribe,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,VSTRAT.ai,https://vstrat.ai,3,$1.8M ARR,1800000,600000,,,AI management tools,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,DittoDub,https://dittodub.com,4,$3.8M ARR,3800000,950000,,,AI dubbing,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Submagic,https://www.submagic.co,14,$7M ARR,7000000,500000,,,AI captions,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,sync.so,https://sync.so,19,$4M ARR,4000000,210526,,vc,AI lipsync,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Develop Health,https://www.develophealth.ai,5,$7M ARR,7000000,1400000,,vc,Healthcare AI,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Anara,https://anara.com,6,$3.5M ARR,3500000,583333,,,AI for researchers,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Samplead,https://www.samplead.co,9,$1.7M ARR,1700000,188889,,,AI SDR agents,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Aragon.ai,https://www.aragon.ai,9,$10M ARR,10000000,1111111,,,AI headshots,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Rendernet AI,https://rendernet.ai,10,$5M ARR,5000000,500000,,,AI image generation,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Vapi,https://vapi.ai,20,$8M ARR,8000000,400000,,vc,Voice AI platform,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Jenni AI,https://jenni.ai,20,$10M ARR,10000000,500000,,,AI writing / research,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Icon,https://icon.com,8,$5M ARR,5000000,625000,,vc,AI ad maker,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Chatbase,https://www.chatbase.co,11,$5M ARR,5000000,454545,,bootstrapped,AI chatbots,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Oleve,https://oleve.com,5,$6M ARR,6000000,1200000,,,Consumer AI apps,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,HeadshotPro,https://www.headshotpro.com,1,$3M ARR,3000000,3000000,,bootstrapped,AI headshots,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Photo AI / levelsio products,https://levels.io,1,$3M ARR (portfolio),3000000,3000000,,bootstrapped,AI photo + indie portfolio,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Interview Coder,https://www.interviewcoder.co,2,$2M ARR,2000000,1000000,,,AI interview tool,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated
-active,Kleo,https://www.kleo.so,,"$61,910 MRR",742920,,,,AI LinkedIn writing,https://shippedandpaid.com/,2025-12,self-reported,Polar dashboard shared on X; team size not stated
-active,Dropmagic,https://www.dropmagic.ai,,$120K MRR,1440000,,,,AI e-commerce store builder,https://shippedandpaid.com/,2026-10,self-reported,Co-founder on X; team size not stated
-active,Revid,https://www.revid.ai,,~$600K/month,7200000,,,,AI short video,https://shippedandpaid.com/,2026-04,self-reported,Interview; currency not stated
-active,Post Bridge,https://www.post-bridge.com,,"$48,821 MRR",585852,,,,Social media scheduling,https://shippedandpaid.com/,2026-10,verified,TrustMRR Stripe-verified
-active,SuperX,https://superx.so,,"$22,281 MRR",267372,,,,X growth tool,https://shippedandpaid.com/,2026-10,verified,TrustMRR Stripe-verified
-active,GETebook.ai,https://getebook.ai,,"$35,469 (last 30 days)",425628,,,,AI ebook writer,https://shippedandpaid.com/,2026-10-21,verified,TrustMRR Stripe-verified; annualized from 30 days
-active,SocialCrawl,https://socialcrawl.dev,,"$35,135 (last 30 days)",421620,,,,Social data API for AI agents,https://shippedandpaid.com/,2026-10-20,verified,TrustMRR Stripe-verified; annualized from 30 days
-active,ChartDetector AI,,2,$56K/month,672000,336000,,,AI trading chart analysis,https://shippedandpaid.com/,2026-07,self-reported,Two brothers per Starter Story
-active,Coherence,,2,"~85,000 total in 8 months (currency not stated)",,,,,Breathwork app,https://shippedandpaid.com/,2025-11,self-reported,Two brothers
-active,Cat on Chair,,2,~$18K/month,216000,108000,,,Focus timer app,https://shippedandpaid.com/,2026-07,self-reported,Founder and partner
-active,AppAlchemy,https://www.appalchemy.ai,1,~$17K MRR,204000,204000,,,AI app design,https://shippedandpaid.com/,2025-07,self-reported,Run by one founder
-active,ContextBolt,,1,$653/month,7836,7836,,,SEO MCP server,https://shippedandpaid.com/,2026-09,self-reported,Solo founder
-active,TrustMRR,https://trustmrr.com,1,~$300K revenue in first 9 months,,,,bootstrapped,Revenue verification marketplace,https://shippedandpaid.com/,2026-09-01,self-reported,"Marc Lou, solo"
+status,name,url,team_size,revenue,revenue_annualized_usd,revenue_per_employee,funding_raised,bootstrapped_or_vc,category,source_url,as_of_date,confidence,notes,slug
+active,Cal AI,https://www.calai.app,15,$24M ARR,24000000,1600000,,,Consumer health app,https://tinyteams.xyz/,,self-reported,"Re-check 2026-10-21: earlier 2-person/$21M claim (Indie Hackers) could not be re-verified; using tinyteams.xyz listing of 15 people / $24M ARR, undated",cal-ai
+active,Rosebud AI Journal,https://www.rosebud.app,5,$1M ARR,1000000,200000,,,Consumer wellness,https://montethakkar.com/resume.pdf,2025,self-reported,Source is a founder resume,rosebud-ai-journal
+active,SeoBot,https://seobotai.com,1,$1M ARR,1000000,1000000,,,Marketing / SEO agent,https://www.vccafe.com/nano-unicorns-in-the-making/,2025,self-reported,tinyteams.xyz lists 2 people / $1.2M ARR,seobot
+graduated,Base44,https://base44.com,1,$3.5M ARR,3500000,3500000,,bootstrapped,AI app builder,https://wearefounders.uk/from-solo-builder-to-80m-exit-the-base44-story,2025-06-18,self-reported,Matches source. Acquired by Wix (~$80M) Jun 2025; tinyteams.xyz lists $2M ARR,base44
+active,Swan AI,https://www.swan.ai,3,$1M ARR,1000000,333333,,,Sales / GTM agents,https://ryan-estes.beehiiv.com/p/6m-in-9-months-1m-in-8-weeks-and-why-billionaires-want-to-live-forever,2025,self-reported,,swan-ai
+active,Arcads,https://www.arcads.ai,4,$5M ARR,5000000,1250000,,,AI video ads,https://tinyteams.xyz/,,self-reported,"Re-check 2026-10-21: replaced secondary Medium claim (5 people/$10M) with tinyteams.xyz listing (4 people/$5M), undated; a Mar 2026 Substack says ~10 people",arcads
+active,Magic Patterns,https://www.magicpatterns.com,2,$1M ARR,1000000,500000,,vc,AI UI design,https://rosetta.to/u/ycrootaccess,2025,self-reported,YC company,magic-patterns
+graduated,Magnific,https://magnific.ai,2,$6M ARR,6000000,3000000,,bootstrapped,AI image upscaling,https://chalsarboleya.substack.com/p/europes-ai-champions-and-the-gtm,pre-2025,self-reported,Source (Mar 2026): $6M ARR with 2 people before Freepik acquisition; now ~$30M ARR inside Freepik. tinyteams.xyz says $10M,magnific
+active,Polsia,https://polsia.com,1,$1M ARR (reported within 30 days),1000000,1000000,,,AI agents for businesses,https://contextstudios.ai/blog/polsia-how-a-solo-founder-hit-1m-arr-in-30-days-with-ai-agents,2026,self-reported,,polsia
+active,Maggi AI,,1,$1M ARR,1000000,1000000,,bootstrapped,AI assistant,https://kblip.com/news/solo-founder-builds-maggi-ai-to-1m-arr-in-12-months-without-5qJxBRl,2026,self-reported,Reported as built without VC,maggi-ai
+active,Gauge,,5,$2M ARR,2000000,400000,,,AI search visibility,https://insights.tryspecter.com/specter-monitor-241,2026,estimate,Secondary newsletter,gauge
+active,Loman,https://loman.ai,2,$1.5M ARR,1500000,750000,,,AI phone agent (restaurants),https://select.keenable.ai/r/lean-ai-products-at-1m-arr-2025-sep-2026/WwKmTVPhPPZWlOclJqrBSg,2025-08,estimate,Keenable row had incomplete source,loman
+active,CHAI,https://www.chai-research.com,12,$30M+ ARR,30000000,2500000,,,Consumer social AI,https://aijourn.com/chai-reaches-over-30m-in-arr-with-only-12-employees/,2025-03-28,self-reported,PR Newswire release; matches,chai
+graduated,Lovable,https://lovable.dev,18,$30M ARR,30000000,1666667,,vc,AI app builder,https://www.growthunhinged.com/p/lovable-growth-story,2025-04-02,self-reported,Team grew to 45 by Jul 2025; now well above 20,lovable
+active,Recall.ai,https://www.recall.ai,19,$10M+ ARR,10000000,526316,,vc,Meeting bot API,https://www.heysam.ai/blog/one-table-companies,2025-01,estimate,Third-party blog,recall-ai
+active,RB2B,https://www.rb2b.com,7,$4M (first 9 months),4000000,571429,,bootstrapped,B2B visitor identification,https://www.heysam.ai/blog/one-table-companies,2024,self-reported,,rb2b
+active,Floqer,https://www.floqer.com,9,Seven-figure ARR,,,$2M pre-seed (Sep 2025),vc,Sales data / AI agents,https://thelogic.co/news/analysis/ai-startups-millions-tiny-teams/,2026-08,self-reported,Exact ARR not disclosed,floqer
+active,Hivelighter,,9,,,,,,AI,https://thelogic.co/news/analysis/ai-startups-millions-tiny-teams/,2026-08,self-reported,"Targeting $13M ARR by 2028 (goal, not revenue)",hivelighter
+graduated,bolt.new,https://bolt.new,15,$40M ARR,40000000,2666667,,vc,AI app builder,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,bolt-new
+graduated,Midjourney,https://www.midjourney.com,10,$200M ARR,200000000,20000000,,bootstrapped,AI image generation,https://tinyteams.xyz/,,estimate,historical snapshot on tinyteams.xyz; milestone date not stated; team now far larger,midjourney
+graduated,Cursor (Anysphere),https://cursor.com,20,$200M ARR,200000000,10000000,,vc,AI coding,https://tinyteams.xyz/,,estimate,historical snapshot on tinyteams.xyz; milestone date not stated; team now far larger,cursor-anysphere
+active,Twofold,https://www.trytwofold.com,3,$5M ARR,5000000,1666667,,,AI medical scribe,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,twofold
+active,VSTRAT.ai,https://vstrat.ai,3,$1.8M ARR,1800000,600000,,,AI management tools,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,vstrat-ai
+active,DittoDub,https://dittodub.com,4,$3.8M ARR,3800000,950000,,,AI dubbing,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,dittodub
+active,Submagic,https://www.submagic.co,14,$7M ARR,7000000,500000,,,AI captions,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,submagic
+active,sync.so,https://sync.so,19,$4M ARR,4000000,210526,,vc,AI lipsync,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,sync-so
+active,Develop Health,https://www.develophealth.ai,5,$7M ARR,7000000,1400000,,vc,Healthcare AI,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,develop-health
+active,Anara,https://anara.com,6,$3.5M ARR,3500000,583333,,,AI for researchers,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,anara
+active,Samplead,https://www.samplead.co,9,$1.7M ARR,1700000,188889,,,AI SDR agents,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,samplead
+active,Aragon.ai,https://www.aragon.ai,9,$10M ARR,10000000,1111111,,,AI headshots,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,aragon-ai
+active,Rendernet AI,https://rendernet.ai,10,$5M ARR,5000000,500000,,,AI image generation,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,rendernet-ai
+active,Vapi,https://vapi.ai,20,$8M ARR,8000000,400000,,vc,Voice AI platform,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,vapi
+active,Jenni AI,https://jenni.ai,20,$10M ARR,10000000,500000,,,AI writing / research,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,jenni-ai
+active,Icon,https://icon.com,8,$5M ARR,5000000,625000,,vc,AI ad maker,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,icon
+active,Chatbase,https://www.chatbase.co,11,$5M ARR,5000000,454545,,bootstrapped,AI chatbots,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,chatbase
+active,Oleve,https://oleve.com,5,$6M ARR,6000000,1200000,,,Consumer AI apps,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,oleve
+active,HeadshotPro,https://www.headshotpro.com,1,$3M ARR,3000000,3000000,,bootstrapped,AI headshots,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,headshotpro
+active,Photo AI / levelsio products,https://levels.io,1,$3M ARR (portfolio),3000000,3000000,,bootstrapped,AI photo + indie portfolio,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,photo-ai-levelsio-products
+active,Interview Coder,https://www.interviewcoder.co,2,$2M ARR,2000000,1000000,,,AI interview tool,https://tinyteams.xyz/,,self-reported,historical snapshot on tinyteams.xyz; milestone date not stated,interview-coder
+active,Kleo,https://www.kleo.so,,"$61,910 MRR",742920,,,,AI LinkedIn writing,https://shippedandpaid.com/,2025-12,self-reported,Polar dashboard shared on X; team size not stated,kleo
+active,Dropmagic,https://www.dropmagic.ai,,$120K MRR,1440000,,,,AI e-commerce store builder,https://shippedandpaid.com/,2026-10,self-reported,Co-founder on X; team size not stated,dropmagic
+active,Revid,https://www.revid.ai,,~$600K/month,7200000,,,,AI short video,https://shippedandpaid.com/,2026-04,self-reported,Interview; currency not stated,revid
+active,Post Bridge,https://www.post-bridge.com,,"$48,821 MRR",585852,,,,Social media scheduling,https://shippedandpaid.com/,2026-10,verified,TrustMRR Stripe-verified,post-bridge
+active,SuperX,https://superx.so,,"$22,281 MRR",267372,,,,X growth tool,https://shippedandpaid.com/,2026-10,verified,TrustMRR Stripe-verified,superx
+active,GETebook.ai,https://getebook.ai,,"$35,469 (last 30 days)",425628,,,,AI ebook writer,https://shippedandpaid.com/,2026-10-21,verified,TrustMRR Stripe-verified; annualized from 30 days,getebook-ai
+active,SocialCrawl,https://socialcrawl.dev,,"$35,135 (last 30 days)",421620,,,,Social data API for AI agents,https://shippedandpaid.com/,2026-10-20,verified,TrustMRR Stripe-verified; annualized from 30 days,socialcrawl
+active,ChartDetector AI,,2,$56K/month,672000,336000,,,AI trading chart analysis,https://shippedandpaid.com/,2026-07,self-reported,Two brothers per Starter Story,chartdetector-ai
+active,Coherence,,2,"~85,000 total in 8 months (currency not stated)",,,,,Breathwork app,https://shippedandpaid.com/,2025-11,self-reported,Two brothers,coherence
+active,Cat on Chair,,2,~$18K/month,216000,108000,,,Focus timer app,https://shippedandpaid.com/,2026-07,self-reported,Founder and partner,cat-on-chair
+active,AppAlchemy,https://www.appalchemy.ai,1,~$17K MRR,204000,204000,,,AI app design,https://shippedandpaid.com/,2025-07,self-reported,Run by one founder,appalchemy
+active,ContextBolt,,1,$653/month,7836,7836,,,SEO MCP server,https://shippedandpaid.com/,2026-09,self-reported,Solo founder,contextbolt
+active,TrustMRR,https://trustmrr.com,1,~$300K revenue in first 9 months,,,,bootstrapped,Revenue verification marketplace,https://shippedandpaid.com/,2026-09-01,self-reported,"Marc Lou, solo",trustmrr

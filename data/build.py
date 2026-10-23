@@ -65,3 +65,35 @@ with open("data/companies.csv","w",newline="") as f:
     rpe=round(ra/t) if (ra and t) else ""
     w.writerow(["graduated" if n in GRAD else "active",n,u,t if t else "",rt,int(ra) if ra else "",rpe,fu,bv,c,s,a,cf,no])
 print(len(R))
+
+# ---- per-company pages, sitemap, robots ----
+import re,os,html,datetime
+SITE="https://leanledger.co";TALLY="https://tally.so/r/Ar7GEN";SUB="https://rationalreturns.substack.com/subscribe"
+def slug(n): return re.sub(r"[^a-z0-9]+","-",n.lower()).strip("-")
+def money(x): return f"${int(x):,}" if x not in ("",None) else "not disclosed"
+rows=list(csv.DictReader(open("data/companies.csv")))
+# add slug column
+for r in rows: r["slug"]=slug(r["name"])
+with open("data/companies.csv","w",newline="") as f:
+  w=csv.DictWriter(f,fieldnames=cols+["slug"]);w.writeheader();w.writerows(rows)
+e=html.escape;today=datetime.date.today().isoformat();urls=[SITE+"/"]
+for r in rows:
+  n=e(r["name"]);d=f"c/{r['slug']}";os.makedirs(d,exist_ok=True)
+  t=f"{r['name']} revenue per employee, team size & funding | Lean Ledger"
+  desc=f"{r['name']}: team of {r['team_size'] or 'undisclosed size'}, revenue {r['revenue'] or 'not disclosed'}, revenue per employee {money(r['revenue_per_employee'])}. Label: {r['confidence']}. Sourced."
+  grad='<p class="g"><b>Graduated:</b> now over 20 people or part of a larger company. Kept as a historical snapshot and left out of the ranking.</p>' if r["status"]=="graduated" else ""
+  site=f'<a href="{e(r["url"])}" rel="noopener">{e(r["url"])}</a>' if r["url"] else "not listed"
+  rowsh="".join(f"<tr><th>{k}</th><td>{v}</td></tr>" for k,v in [("Website",site),("Category",e(r["category"])),("Team size",e(r["team_size"] or "not stated")),("Revenue (as stated)",e(r["revenue"] or "not disclosed")),("Annualized revenue",money(r["revenue_annualized_usd"])),("Revenue per employee",money(r["revenue_per_employee"])),("Funding",e(r["funding_raised"] or "not disclosed")),("Bootstrapped or raised",{"vc":"Raised","bootstrapped":"Bootstrapped"}.get(r["bootstrapped_or_vc"],"unknown")),("Data label",f'<span class="tag {e(r["confidence"])}">{e(r["confidence"])}</span>'),("As of",e(r["as_of_date"] or "undated in source")),("Source",f'<a href="{e(r["source_url"])}" rel="noopener">{e(r["source_url"])}</a>'),("Notes",e(r["notes"]))])
+  open(f"{d}/index.html","w").write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{e(t)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE}/{d}/">
+<meta property="og:type" content="article"><meta property="og:title" content="{e(t)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{SITE}/{d}/"><meta property="og:site_name" content="Lean Ledger"><meta name="twitter:card" content="summary">
+<style>body{{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;color:#111}}table{{border-collapse:collapse;width:100%}}th,td{{text-align:left;padding:.45rem;border-bottom:1px solid #eee;vertical-align:top;word-break:break-word}}th{{width:35%;color:#555;font-weight:500}}.tag{{padding:2px 6px;border-radius:4px;background:#eee}}.verified{{background:#d4f5dc}}.self-reported{{background:#fff3c4}}.estimate{{background:#fde0e0}}.g{{background:#f3f0ff;padding:.6rem}}nav a{{margin-right:1rem}}</style></head><body>
+<nav><a href="/">← All companies</a><a href="{TALLY}">Submit a company</a><a href="{SUB}">Subscribe</a></nav>
+<h1>{n}</h1><p>{e(r["category"])}. Part of <a href="/">Lean Ledger</a>, a sortable database of AI companies with 20 or fewer people.</p>{grad}
+<table>{rowsh}</table>
+<p><small>"Verified" means revenue checked against a payment provider (e.g. Stripe via TrustMRR). "Self-reported" means a founder or company claim. "Estimate" means a third-party figure. Know a correction? <a href="{TALLY}">Send it with a source</a>.</small></p>
+<p><a href="{SUB}">Subscribe to Rational Returns</a> for new additions.</p></body></html>''')
+  urls.append(f"{SITE}/{d}/")
+open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)+"</urlset>\n")
+open("robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+print("pages",len(rows))
