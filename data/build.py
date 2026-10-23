@@ -4,7 +4,7 @@ T="https://tinyteams.xyz/"; S="https://shippedandpaid.com/"
 TS="historical snapshot on tinyteams.xyz; milestone date not stated"
 # name,url,team,rev_usd_annual,revenue_text,funding,bv,category,source,as_of,conf,notes
 R=[
-("Cal AI","https://www.calai.app",15,24e6,"$24M ARR","","","Consumer health app",T,"","self-reported","Re-check 2026-10-21: earlier 2-person/$21M claim (Indie Hackers) could not be re-verified; using tinyteams.xyz listing of 15 people / $24M ARR, undated"),
+("Cal AI","https://www.calai.app",15,24e6,"$24M ARR","","","Consumer health app",T,"","self-reported","Acquired by MyFitnessPal (closed Dec 2025, announced 2026-03-02 per TechCrunch/MFP). Inc. (Mar 2026): ~30 employees, $40M sales in 12 months. Listing figure 15 people / $24M ARR is tinyteams.xyz, undated. Checked 2026-10-23"),
 ("Rosebud AI Journal","https://www.rosebud.app",5,1e6,"$1M ARR","","","Consumer wellness","https://montethakkar.com/resume.pdf","2025","self-reported","Source is a founder resume"),
 ("SeoBot","https://seobotai.com",1,1e6,"$1M ARR","","","Marketing / SEO agent","https://www.vccafe.com/nano-unicorns-in-the-making/","2025","self-reported","tinyteams.xyz lists 2 people / $1.2M ARR"),
 ("Base44","https://base44.com",1,3.5e6,"$3.5M ARR","","bootstrapped","AI app builder","https://wearefounders.uk/from-solo-builder-to-80m-exit-the-base44-story","2025-06-18","self-reported","Matches source. Acquired by Wix (~$80M) Jun 2025; tinyteams.xyz lists $2M ARR"),
@@ -16,7 +16,7 @@ R=[
 ("Maggi AI","",1,1e6,"$1M ARR","","bootstrapped","AI assistant","https://kblip.com/news/solo-founder-builds-maggi-ai-to-1m-arr-in-12-months-without-5qJxBRl","2026","self-reported","Reported as built without VC"),
 ("Gauge","",5,2e6,"$2M ARR","","","AI search visibility","https://insights.tryspecter.com/specter-monitor-241","2026","estimate","Secondary newsletter"),
 ("Loman","https://loman.ai",2,1.5e6,"$1.5M ARR","","","AI phone agent (restaurants)",K,"2025-08","estimate","Keenable row had incomplete source"),
-("CHAI","https://www.chai-research.com",12,30e6,"$30M+ ARR","","","Consumer social AI","https://aijourn.com/chai-reaches-over-30m-in-arr-with-only-12-employees/","2025-03-28","self-reported","PR Newswire release; matches"),
+("CHAI","https://www.chai-research.com",12,30e6,"$30M+ ARR","","","Consumer social AI","https://aijourn.com/chai-reaches-over-30m-in-arr-with-only-12-employees/","2025-03-28","self-reported","Company press release (PR Newswire) covered by AI Journal 2025-03-28; confirmed live 2026-10-23"),
 ("Lovable","https://lovable.dev",18,30e6,"$30M ARR","","vc","AI app builder","https://www.growthunhinged.com/p/lovable-growth-story","2025-04-02","self-reported","Team grew to 45 by Jul 2025; now well above 20"),
 ("Recall.ai","https://www.recall.ai",19,10e6,"$10M+ ARR","","vc","Meeting bot API","https://www.heysam.ai/blog/one-table-companies","2025-01","estimate","Third-party blog"),
 ("RB2B","https://www.rb2b.com",7,4e6,"$4M (first 9 months)","","bootstrapped","B2B visitor identification","https://www.heysam.ai/blog/one-table-companies","2024","self-reported",""),
@@ -35,14 +35,14 @@ R=[
 ("Samplead","https://www.samplead.co",9,1.7e6,"$1.7M ARR","","","AI SDR agents",T,"","self-reported",TS),
 ("Aragon.ai","https://www.aragon.ai",9,10e6,"$10M ARR","","","AI headshots",T,"","self-reported",TS),
 ("Rendernet AI","https://rendernet.ai",10,5e6,"$5M ARR","","","AI image generation",T,"","self-reported",TS),
-("Vapi","https://vapi.ai",20,8e6,"$8M ARR","","vc","Voice AI platform",T,"","self-reported",TS),
+("Vapi","https://vapi.ai",20,8e6,"$8M ARR","","vc","Voice AI platform",T,"","self-reported","20 people was a historical tinyteams.xyz snapshot. Tracxn: 150 employees as of 2026-09-30; TechCrunch 2026-05-12: ~100. Checked 2026-10-23"),
 ("Jenni AI","https://jenni.ai",20,10e6,"$10M ARR","","","AI writing / research",T,"","self-reported",TS),
 ("Icon","https://icon.com",8,5e6,"$5M ARR","","vc","AI ad maker",T,"","self-reported",TS),
 ("Chatbase","https://www.chatbase.co",11,5e6,"$5M ARR","","bootstrapped","AI chatbots",T,"","self-reported",TS),
 ("Oleve","https://oleve.com",5,6e6,"$6M ARR","","","Consumer AI apps",T,"","self-reported",TS),
 ("HeadshotPro","https://www.headshotpro.com",1,3e6,"$3M ARR","","bootstrapped","AI headshots",T,"","self-reported",TS),
-("Photo AI / levelsio products","https://levels.io",1,3e6,"$3M ARR (portfolio)","","bootstrapped","AI photo + indie portfolio",T,"","self-reported",TS),
-("Interview Coder","https://www.interviewcoder.co",2,2e6,"$2M ARR","","","AI interview tool",T,"","self-reported",TS),
+("Photo AI / levelsio products","https://levels.io",1,3.1e6,"~$3.1M/yr (portfolio)","","bootstrapped","AI photo + indie portfolio","https://www.operatorbook.dev/stories/pieter-levels-revenue-never-sell-solo-portfolio","2025-07","self-reported","Whole portfolio (Photo AI, Nomad List, Remote OK, etc.), not Photo AI alone: Levels on Stripe Cheeky Pint, Jul 2025, ~$3.1M/yr solo; Photo AI alone ~$600K ARR. tinyteams.xyz lists $3M. Checked 2026-10-23"),
+("Interview Coder","https://www.interviewcoder.co",2,2e6,"$2M ARR","","","AI interview tool",T,"","self-reported","Historical tinyteams.xyz snapshot, undated. Interview Coder was folded into Cluely (Apr 2025, TechCrunch); founder Roy Lee now runs Cluely (16+ staff by Jul 2025). Checked 2026-10-23"),
 ("Kleo","https://www.kleo.so",None,61910*12,"$61,910 MRR",  "","","AI LinkedIn writing",S,"2025-12","self-reported","Polar dashboard shared on X; team size not stated"),
 ("Dropmagic","https://www.dropmagic.ai",None,120000*12,"$120K MRR","","","AI e-commerce store builder",S,"2026-10","self-reported","Co-founder on X; team size not stated"),
 ("Revid","https://www.revid.ai",None,600000*12,"~$600K/month","","","AI short video",S,"2026-04","self-reported","Interview; currency not stated"),
@@ -57,7 +57,7 @@ R=[
 ("ContextBolt","",1,653*12,"$653/month","","","SEO MCP server",S,"2026-09","self-reported","Solo founder"),
 ("TrustMRR","https://trustmrr.com",1,None,"~$300K revenue in first 9 months","","bootstrapped","Revenue verification marketplace",S,"2026-09-01","self-reported","Marc Lou, solo"),
 ]
-GRAD={"Cursor (Anysphere)","Midjourney","Lovable","bolt.new","Base44","Magnific"}
+GRAD={"Cursor (Anysphere)","Midjourney","Lovable","bolt.new","Base44","Magnific","Cal AI","Vapi"}
 cols="status,name,url,team_size,revenue,revenue_annualized_usd,revenue_per_employee,funding_raised,bootstrapped_or_vc,category,source_url,as_of_date,confidence,notes".split(",")
 with open("data/companies.csv","w",newline="") as f:
   w=csv.writer(f);w.writerow(cols)
