@@ -1,6 +1,6 @@
 const COLS=[["name","Company"],["team_size","Team"],["revenue","Revenue (as stated)"],["revenue_annualized_usd","Annualized $"],["revenue_per_employee","Rev / employee"],["funding_raised","Funding"],["bootstrapped_or_vc","Raised?"],["category","Category"],["as_of_date","As of"],["confidence","Confidence"],["source_url","Source"]];
 const NUM=new Set(["team_size","revenue_annualized_usd","revenue_per_employee"]);
-const TALLY_URL="TALLY_URL"; // TODO: replace with the Tally form URL, e.g. https://tally.so/r/xxxxxx
+const TALLY_URL="https://tally.so/r/Ar7GEN"; // TODO: replace with the Tally form URL, e.g. https://tally.so/r/xxxxxx
 let rows=[],sk="revenue_per_employee",dir=-1;
 function parse(t){const out=[];let r=[],f="",q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c=='"'&&t[i+1]=='"'){f+='"';i++}else if(c=='"')q=false;else f+=c}else if(c=='"')q=true;else if(c==','){r.push(f);f=""}else if(c=='\n'){r.push(f);out.push(r);r=[];f=""}else if(c!='\r')f+=c}if(f||r.length){r.push(f);out.push(r)}const h=out.shift();return out.filter(x=>x.length>1).map(x=>Object.fromEntries(h.map((k,i)=>[k,x[i]||""])))}
 const money=v=>v?"$"+(+v>=1e6?(+v/1e6).toFixed(1)+"M":Math.round(+v/1e3)+"K"):"";
