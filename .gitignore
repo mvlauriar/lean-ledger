@@ -1,0 +1,4 @@
+HANDOFF.md
+*.md
+!README.md
+screenshot.png
