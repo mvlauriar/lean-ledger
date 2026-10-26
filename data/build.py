@@ -20,7 +20,7 @@ R=[
 ("Lovable","https://lovable.dev",18,30e6,"$30M ARR","","vc","AI app builder","https://www.growthunhinged.com/p/lovable-growth-story","2025-04-02","self-reported","Team grew to 45 by Jul 2025; now well above 20"),
 ("Recall.ai","https://www.recall.ai",19,10e6,"$10M+ ARR","","vc","Meeting bot API","https://www.heysam.ai/blog/one-table-companies","2025-01","estimate","Third-party blog"),
 ("RB2B","https://www.rb2b.com",7,4e6,"$4M (first 9 months)","","bootstrapped","B2B visitor identification","https://www.heysam.ai/blog/one-table-companies","2024","self-reported",""),
-("Floqer","https://www.floqer.com",9,None,"Seven-figure ARR","$2M pre-seed (Sep 2025)","vc","Sales data / AI agents","https://thelogic.co/news/analysis/ai-startups-millions-tiny-teams/","2026-08","self-reported","Exact ARR not disclosed"),
+("Floqer","https://www.floqer.com",8,1.2e6,"$1.2M+ ARR","$2M pre-seed (Sep 2025)","vc","Sales data / AI agents","https://www.webpronews.com/floqers-fleet-of-ai-agents-takes-over-the-tedious-work-of-b2b-customer-research/","2026-10-15","self-reported","Company says passed $1.2M ARR with 8 employees (WebProNews, TechCrunch Disrupt 2026 coverage). Earlier: 9 people, seven-figure ARR (The Logic, 2026-08). Checked 2026-10-26"),
 ("Hivelighter","",9,None,"","","","AI","https://thelogic.co/news/analysis/ai-startups-millions-tiny-teams/","2026-08","self-reported","Targeting $13M ARR by 2028 (goal, not revenue)"),
 ("bolt.new","https://bolt.new",15,40e6,"$40M ARR",  "","vc","AI app builder",T,"","self-reported",TS),
 ("Midjourney","https://www.midjourney.com",10,200e6,"$200M ARR","","bootstrapped","AI image generation",T,"","estimate",TS+"; team now far larger"),
@@ -56,6 +56,10 @@ R=[
 ("AppAlchemy","https://www.appalchemy.ai",1,17000*12,"~$17K MRR","","","AI app design",S,"2025-07","self-reported","Run by one founder"),
 ("ContextBolt","",1,653*12,"$653/month","","","SEO MCP server",S,"2026-09","self-reported","Solo founder"),
 ("TrustMRR","https://trustmrr.com",1,None,"~$300K revenue in first 9 months","","bootstrapped","Revenue verification marketplace",S,"2026-09-01","self-reported","Marc Lou, solo"),
+("BoldVoice","https://www.boldvoice.com",10,10e6,"~$10M ARR","$21M Series A (Jan 2026)","vc","AI speech / accent coaching","https://startupeable.com/en/boldvoice-audio-ai-lab/","2026-07-25","self-reported","CEO interview: team of 10 at ~$10M ARR (7 people at the Jan 2026 Series A, per PR Newswire). Plans 20-25 people by end of 2026; a LinkedIn-data profile shows 27, so re-check headcount soon. Checked 2026-10-26"),
+("Halluminate","https://halluminate.ai",9,None,"Mid-eight-figure annualized run rate","$38.5M total ($30M Series A, Oct 2026)","vc","AI training environments (finance)","https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/","2026-10-01","self-reported","Nine people; CEO told Fortune run rate passed mid-eight figures and it is profitable. Exact figure not disclosed, so no per-employee number. Checked 2026-10-26"),
+("Shipper","https://shipper.now",3,25600*12,"$25.6K MRR (~$307K ARR)","","bootstrapped","AI app builder","https://www.starterstory.com/shipper","2026-05-29","estimate","Stripe dashboard shown on Starter Story: $25.6K MRR, $307K ARR. Team size estimated: two founder brothers plus one developer at the start. Checked 2026-10-26"),
+("Lancer","https://lancer.app",2,10000*12,"~$10K MRR","","bootstrapped","AI agent for Upwork bidding","https://www.starterstory.com/stories/lancer","2026-01-10","self-reported","Starter Story profile: 2 founders, 0 employees, ~$10K MRR for several months. Checked 2026-10-26"),
 ]
 GRAD={"Cursor (Anysphere)","Midjourney","Lovable","bolt.new","Base44","Magnific","Cal AI","Vapi"}
 cols="status,name,url,team_size,revenue,revenue_annualized_usd,revenue_per_employee,funding_raised,bootstrapped_or_vc,category,source_url,as_of_date,confidence,notes".split(",")
