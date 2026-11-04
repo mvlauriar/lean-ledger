@@ -99,7 +99,7 @@ for r in rows:
 <h1>{n}</h1><p>{e(r["category"])}. Part of <a href="/">Lean Ledger</a>, a sortable database of AI companies with 20 or fewer people.</p>{grad}
 <table>{rowsh}</table>
 <p><small>"Verified" means revenue checked against a payment provider (e.g. Stripe via TrustMRR). "Self-reported" means a founder or company claim. "Estimate" means a third-party figure. Know a correction? <a href="{TALLY}">Send it with a source</a>.</small></p>
-<p><a href="{SUB}">Subscribe to Rational Returns</a> for new additions.</p></body></html>''')
+<p>Get new tiny AI companies weekly in the Lean Ledger section of Rational Returns.</p><iframe src="https://rationalreturns.substack.com/embed" title="Subscribe to Rational Returns" style="width:100%;max-width:480px;height:130px;border:1px solid #e5e7eb;border-radius:8px;background:#fff" frameborder="0" scrolling="no" loading="lazy"></iframe></body></html>''')
   urls.append(f"{SITE}/{d}/")
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)+"</urlset>\n")
 open("robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
